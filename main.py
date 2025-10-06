@@ -2,12 +2,12 @@
 import os
 from datetime import datetime
 
-from .modules.input_handler import get_tasks
-from .modules.productivity_calculator import calculator_productivity
-from .modules.trend_analyzer import analyze_trend
-from .modules.predictor import predict_next_day
-from .modules.optimizer import get_optimization_suggestion
-from .modules.report_generator import generate_report, save_log, read_log
+from modules.input_handler import get_tasks
+from modules.productivity_calculator import calculate_productivity
+from modules.trend_analyzer import analyze_trend
+from modules.predictor import predict_next_day
+from modules.optimizer import get_optimization_suggestion
+from modules.report_generator import generate_report, save_log, read_log
 
 
 def ensure_data_directory():
