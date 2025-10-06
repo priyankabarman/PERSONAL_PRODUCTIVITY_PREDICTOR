@@ -26,7 +26,7 @@ def main():
 
     # --- Part 1: Input & Core Calculation ---
     tasks = get_tasks()
-    score, total_hours, tasks_with_scores = calculator_productivity(tasks)
+    score, total_hours, tasks_with_scores = calculate_productivity(tasks)
 
     # --- Part 2: Analysis & Prediction ---
     past_scores = read_log()
